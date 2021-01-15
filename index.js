@@ -13,5 +13,10 @@ function shout(string){
   return string.toUpperCase()
 }
 
-shout('hello')
-shout('tash you are a ding dong')
+//1.make a function called whisper
+//2.receives one argument
+//3.returns argument in all lowercase
+
+function whisper(string) {
+  return string.toLowerCase()
+}
