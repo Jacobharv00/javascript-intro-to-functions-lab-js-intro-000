@@ -28,3 +28,12 @@ function whisper(string) {
 function logShout(string) {
   console.log (string.toUpperCase())
 }
+//1. make a function called logWhisper
+//2. make a argument for function
+//3. take that argument an log it in all lowercase
+//4. use console.log to log it
+
+
+function logWhisper(string) {
+  console.log (string.toLowerCase())
+}
