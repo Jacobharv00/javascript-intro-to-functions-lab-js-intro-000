@@ -12,3 +12,6 @@
 function shout(string){
   return string.toUpperCase()
 }
+
+shout('hello')
+shout('tash you are a ding dong')
