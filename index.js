@@ -9,6 +9,6 @@
 // part 2. we need to give the function an argument
 // part 3. take that argument and uppercase it
 //part 4. return the CAPSED argument
-function shout('string'){
+function shout(string){
   return string.toUpperCase()
 }
