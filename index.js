@@ -37,3 +37,19 @@ function logShout(string) {
 function logWhisper(string) {
   console.log (string.toLowerCase())
 }
+//1. make a function called sayHiToGrandma(string)
+//2.make sure function has argument = string
+//3.make a if statement
+//4.check if string is lowercase
+//5. if string is lowerCase make it return 'I cant hear you'
+
+
+function sayHiToGrandma(string) {
+  if(string === string.toLowerCase()){
+    return "I can't hear you!"
+  } else if(string === string.toUpperCase()) {
+    return 'YES INDEED!'
+  } else {
+    return 'test'
+  }
+}
