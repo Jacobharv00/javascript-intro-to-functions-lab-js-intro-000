@@ -20,3 +20,11 @@ function shout(string){
 function whisper(string) {
   return string.toLowerCase()
 }
+//1.make a function called logShout()
+//2.give function a argument
+//3.take that argument and log it in all caps
+//4. use console.log to log it
+
+function logShout(string) {
+  console.log(string.toUpperCase())
+}
